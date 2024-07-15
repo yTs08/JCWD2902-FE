@@ -1,0 +1,94 @@
+<!-- @format -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Data Diri</legend>
+      <form onsubmit="doSomething()" method="post">
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <label for="nama">Nama</label>
+              </td>
+              <td>
+                <input type="text" id="nama" placeholder="naruto uzumaki" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="password">Password</label>
+              </td>
+              <td>
+                <input
+                  type="password"
+                  required
+                  placeholder="*******"
+                  id="password"
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" checked id="male" />
+              </td>
+              <td>
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="umur"> Umur</label>
+              </td>
+              <td>
+                <input type="number" min="1" max="100" id="umur" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="desc"> Description </label>
+              </td>
+              <td>
+                <textarea rows="3" cols="64" id="desc"></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <input type="checkbox" />
+                <label for="">setuju</label>
+              </td>
+            </tr>
+            <tr>
+              <td>Warna Favorit</td>
+              <td>
+                <select name="" id="">
+                  <option value="1">Merah</option>
+                  <option value="2" selected>Biru</option>
+                  <option value="3">Kuning</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <input type="submit" value="OK" />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+    </fieldset>
+  </body>
+  <script>
+    function doSomething() {
+      alert("hello");
+    }
+  </script>
+</html>

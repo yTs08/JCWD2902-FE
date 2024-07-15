@@ -1,0 +1,54 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layer</title>
+    <style>
+      body {
+        margin: 0;
+        background-color: black;
+      }
+      .pad {
+        background-color: red;
+        color: white;
+        aspect-ratio: 1;
+        width: 50px;
+        padding: 5px 10px;
+        /* py px */
+
+        border: 20px green;
+        border-style: solid;
+        margin: 20px;
+      }
+      .content {
+        width: 100%;
+        height: 100%;
+        background-color: pink;
+      }
+      .content:hover {
+        background-color: yellow;
+      }
+      /* psuedo class */
+
+      .content::first-letter {
+        color: blueviolet;
+      }
+      input {
+        background-color: green;
+      }
+      input:focus {
+        background-color: blue;
+      }
+      /* psuedo element */
+    </style>
+  </head>
+  <body>
+    <div class="pad">
+      <div class="content">content</div>
+      <input type="text" placeholder="isi ini" />
+    </div>
+  </body>
+</html>
