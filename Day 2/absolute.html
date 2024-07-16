@@ -1,0 +1,37 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>absolute</title>
+    <style>
+      div.relative {
+        position: relative;
+        width: 400px;
+        height: 200px;
+        border: 3px solid #73ad21;
+        top: 20px;
+        left: 50px;
+      }
+      div.absolute {
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+        width: 200px;
+        height: 100px;
+        color: white;
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>pos: absolute</h2>
+    <p>absolute example</p>
+    <div class="relative">
+      this div element has position: relative
+      <div class="absolute">this div element has position: absolute</div>
+    </div>
+  </body>
+</html>

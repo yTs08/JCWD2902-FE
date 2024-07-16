@@ -1,0 +1,133 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table of Animal</title>
+    <style>
+      img {
+        width: 100px;
+        aspect-ratio: 1;
+        object-fit: cover;
+        /* vertical-align: bottom; */
+        border-radius: 50%;
+      }
+      body {
+        background-color: #f5f5f5;
+        padding: 40px 0px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-size: 10px;
+      }
+
+      table,
+      tr {
+        margin: auto;
+        text-align: center;
+        color: black;
+      }
+
+      tbody {
+        background-color: white;
+      }
+
+      table,
+      th {
+        border-spacing: 0px;
+        background-color: #a4afc7;
+        color: white;
+        letter-spacing: 1px;
+      }
+
+      table,
+      thead > tr > th {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+      }
+      table,
+      tfoot > tr > th {
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+      }
+
+      th,
+      td {
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Image</th>
+          <th>Name</th>
+          <th>Food</th>
+          <th>Group</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td><img src="./images/cat.avif" alt="" /></td>
+          <td>Smilling <sup>Cat</sup></td>
+          <td><sub>Fish</sub></td>
+          <td>
+            <input type="radio" name="cat" id="" checked /> <b>Vertebrate</b>
+            <input type="radio" name="cat" id="" /> <b>Invertebrate</b>
+          </td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td><img src="./images/dog.jpeg" alt="" /></td>
+          <td>Happy <sup>Dog</sup></td>
+          <td>Fresh <sub>Meat</sub></td>
+          <td>
+            <input type="radio" name="dog" id="" checked /> <b>Vertebrate</b>
+            <input type="radio" name="dog" id="" /> <b>Invertebrate</b>
+          </td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td><img src="./images/simpanse.jpeg" alt="" /></td>
+          <td>Confuse <sup>Simpanse</sup></td>
+          <td>Sweet <sub>Banana</sub></td>
+          <td>
+            <input type="radio" name="simp" id="" checked /> <b>Vertebrate</b>
+            <input type="radio" name="simp" id="" /> <b>Invertebrate</b>
+          </td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td><img src="./images/jellyfish.avif" alt="" /></td>
+          <td>Frisky <sup>Jellyfish</sup></td>
+          <td>Saltwater <sub>Plankton</sub></td>
+          <td>
+            <input type="radio" name="jell" id="" /> <b>Vertebrate</b>
+            <input type="radio" name="jell" id="" checked /> <b>Invertebrate</b>
+          </td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td><img src="./images/squid.webp" alt="" /></td>
+          <td>Swimming <sup>Squid</sup></td>
+          <td>Small <sub>Fish</sub></td>
+          <td>
+            <input type="radio" name="squid" id="" /> <b>Vertebrate</b>
+            <input type="radio" name="squid" id="" checked />
+            <b>Invertebrate</b>
+          </td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th colspan="5">Animal</th>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
