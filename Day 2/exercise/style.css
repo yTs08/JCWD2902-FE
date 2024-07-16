@@ -10,7 +10,8 @@ nav {
   display: flex;
   justify-content: space-between;
   /* border-bottom: 1px solid #bbbb; */
-  max-width: 1752px;
+  max-width: 1560px;
+  padding: 0 6rem;
 }
 .menu-left,
 .menu-right {
@@ -20,11 +21,11 @@ nav {
 
 .nav-wrapper {
   margin: 0 auto;
-  padding: 0 6rem;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 1;
   background-color: white;
+  width: 100%;
 }
 
 .logo-2 {
@@ -53,7 +54,7 @@ nav {
     padding: 5px 0px;
     width: 32px;
   }
-  .nav-wrapper {
+  nav {
     padding: 0px 10px;
   }
 
@@ -91,7 +92,6 @@ menu.a[href] {
   display: flex;
   flex-direction: column;
   position: relative;
-  /* margin: 10px 0px; */
 }
 
 .absolute {
