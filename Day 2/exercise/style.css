@@ -9,7 +9,7 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #bbbb;
+  /* border-bottom: 1px solid #bbbb; */
   max-width: 1752px;
 }
 .menu-left,
