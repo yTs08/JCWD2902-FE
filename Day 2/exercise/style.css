@@ -142,7 +142,7 @@ menu.a[href] {
 .card img {
   max-width: 415px;
   width: 100%;
-  min-width: 350px;
+  min-width: 250px;
 }
 
 .card-content p {
