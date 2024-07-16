@@ -182,9 +182,7 @@ menu.a[href] {
 }
 
 .info-detail h4 {
-  padding: 0px 25px;
-  display: flex;
-  align-items: center;
+  padding: 25px 25px;
 }
 
 .info-detail h4:nth-child(even) {
