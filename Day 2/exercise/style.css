@@ -171,7 +171,7 @@ menu.a[href] {
 .info-header img {
   max-width: 585px;
   width: 100%;
-  object-fit: cover;
+  object-fit: fill;
 }
 .info-detail {
   display: grid;
@@ -179,6 +179,7 @@ menu.a[href] {
   grid-template-rows: repeat(3, 1fr);
   align-content: center;
   max-width: 585px;
+  max-height: 324px;
 }
 
 .info-detail h4 {
