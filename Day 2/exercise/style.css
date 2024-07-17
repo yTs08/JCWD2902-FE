@@ -1,5 +1,4 @@
 /** @format */
-@import url(https://db.onlinewebfonts.com/c/ac95f91c55cc591ecf37a4d136ff8031?family=BMWTypeNext+Pro+Regular);
 body {
   margin: 0;
   font-family: "BMWTypeNext Pro Regular";
@@ -45,9 +44,30 @@ nav {
   aspect-ratio: 1;
 }
 
+.menu,
+menu.a[href] {
+  padding: 0px 12px;
+  text-decoration: none;
+  color: #666666;
+  height: 84px;
+  display: flex;
+  align-items: center;
+}
+.menu:hover {
+  color: black;
+  border-bottom: 4px solid #1c68d4;
+  height: 76px;
+  padding-top: 4px;
+}
+
+.menu-right img {
+  width: 20px;
+  aspect-ratio: 1;
+}
+
 @media only screen and (max-width: 650px) {
   .menu {
-    display: none !important;
+    display: none;
   }
   .logo {
     margin: 0;
@@ -64,27 +84,9 @@ nav {
   body {
     font-size: 10px;
   }
-}
-
-.menu,
-menu.a[href] {
-  padding: 0px 12px;
-  text-decoration: none;
-  color: #666666;
-  height: 84px;
-  display: flex;
-  align-items: center;
-}
-.menu:hover {
-  color: black;
-  border-bottom: 4px solid #1c68d4;
-  height: 74px;
-  padding-top: 4px;
-}
-
-.menu-right img {
-  width: 20px;
-  aspect-ratio: 1;
+  h2 {
+    font-size: 14px !important;
+  }
 }
 
 .carousel {
@@ -113,7 +115,7 @@ menu.a[href] {
 
 .card-list {
   max-width: 1100px;
-  background-color: white;
+  /* background-color: white; */
   margin: 0 auto;
   color: black;
   text-align: left;
