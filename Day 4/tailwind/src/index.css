@@ -1,0 +1,10 @@
+/** @format */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: "Roboto", A2rial, Helvetica, sans-serif;
+}
