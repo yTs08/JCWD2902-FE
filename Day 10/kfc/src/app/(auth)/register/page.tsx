@@ -7,11 +7,10 @@ type Props = {};
 
 export default function page({}: Props) {
   return (
-    <div>
+    <div className="px-[50px] py-[60px] w-full">
       <b className="text-[32px] mt-5">BUAT AKUN </b>
-      <div className="px-[50px] py-[60px] lg:max-w-[520px] w-full">
-        <RegisterComponent />
-      </div>
+
+      <RegisterComponent />
     </div>
   );
 }
