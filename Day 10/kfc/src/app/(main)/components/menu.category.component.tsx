@@ -20,7 +20,7 @@ export default function MenuListCategory() {
   return (
     <>
       <MenuBarComponent categories={categories} />
-      <div className="pt-28 ">
+      <div className="md:pt-28 pt-16 ">
         {categories.map((_, key) => (
           <MenuComponent category={_.category} key={key} />
         ))}

@@ -25,7 +25,7 @@ export function MenuComponent({ category }: Props) {
   }, []);
   return (
     <div className="w-full pt-[150px] -mt-[150px]"  id={category}>
-      <div className="ml-3 font-bold text-[28px] md:text-[22px] flex items-center mb-[20px] text-nowrap">
+      <div className="ml-3 font-bold lg:text-[28px] md:text-[22px] flex items-center mb-[20px] text-nowrap">
         <div className="pr-[15px]">
           {category}
         </div>

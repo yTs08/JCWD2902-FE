@@ -25,11 +25,11 @@ export default function MenuBarComponent({ categories }: Props) {
   //   ];
   const [select, setSelect] = useState<string>("Spesial");
   return (
-    <div className="left-0 w-full outline-none font-sans  fixed top-[103px] z-[1000] bg-white h-[45px] ">
+    <div className="left-0 w-full outline-none font-sans  fixed top-[67px] md:top-[103px] z-[1000] bg-white h-[40px] md:h-[45px] ">
       <div className="  max-w-[1220px]  2xl:max-w-[1440px] m-auto w-full  flex justify-between flex-col relative">
-        <div className="bg-white absolute left-0   top-0  h-[45px] flex items-center ">
+        <div className="bg-white absolute left-0  z-10 top-0 h-[45px] md:flex hidden items-center ">
           <ChevronLeft
-            className={`relative top-4   ${scroll <= 0 ? "hidden" : "block"} `}
+            className={`relative left-0  ${scroll <= 0 ? "hidden" : "block"} `}
             onClick={() => {
               const selector = document.getElementById("menubar");
               selector?.scrollTo({
@@ -42,13 +42,13 @@ export default function MenuBarComponent({ categories }: Props) {
         </div>
         <div
           id="menubar"
-          className="text-xl border-b pt-2 mb-[30px] flex font-bold uppercase overflow-hidden max-w-[1220px]  2xl:max-w-[1440px] px-[15px] relative text-[rgba(0, 0, 0, .5)] "
+          className="md:text-xl text-[15px] border-b pt-2 mb-[30px] flex font-bold uppercase overflow-x-scroll md:overflow-hidden max-w-[1220px]  2xl:max-w-[1440px] px-[15px] relative text-[rgba(0, 0, 0, .5)] "
         >
           {categories.map((_, key) => (
             <Link
               href={"#" + _.category}
               key={key}
-              className={`mx-[2.1rem] border-b-[5px]  uppercase -top-[250px] ${
+              className={`mx-[2.1rem] border-b-[5px]  uppercase  ${
                 _.category == select
                   ? " border-red-500 text-black"
                   : " border-white text-[rgba(0,0,0,.5)]"
@@ -61,7 +61,7 @@ export default function MenuBarComponent({ categories }: Props) {
             </Link>
           ))}
         </div>
-        <div className="bg-white absolute right-0  z-10 top-0 h-[45px] flex items-center ">
+        <div className="bg-white absolute right-0  z-10 top-0 h-[45px] md:flex hidden items-center ">
           <ChevronRight
             className="relative right-0"
             onClick={() => {
