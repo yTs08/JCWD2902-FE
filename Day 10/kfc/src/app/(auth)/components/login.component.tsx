@@ -145,9 +145,9 @@ export default function LoginComponent({}: Props) {
                 alt="Google"
                 width={30}
                 height={30}
-                className="w-[30px] h-[30px] "
+                className="w-[30px] h-[30px] mr-2 "
               />
-              {"  Masuk dengan Google"}
+              {" Masuk dengan Google"}
             </>
           )}
         </Button>
