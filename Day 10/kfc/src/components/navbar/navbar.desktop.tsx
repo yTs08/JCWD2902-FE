@@ -11,11 +11,13 @@ import ButtonLogout from "./button.navbar";
 import { Menu } from "lucide-react";
 export default async function NavbarDesktop() {
   const session = await auth();
+  console.log(session);
+
   return (
     <div className="w-full shadow fixed top-0 bg-white z-50  border-b">
       <div className="  max-w-[1220px]  2xl:max-w-[1440px] m-auto w-full p-3 px-[15px] flex justify-between">
         <div className="flex w-full items-center">
-          <button className="ml-[14px] md:hidden block" >
+          <button className="ml-[14px] md:hidden block">
             <Menu width={20} height={19} />
           </button>
           <Link href={"/"}>
@@ -46,7 +48,7 @@ export default async function NavbarDesktop() {
             href="/"
             className="flex items-center w-[85px] text-lg  justify-end font-bold"
           >
-            {session?.user.full_name}
+            {session?.user.full_name || session?.user.name}
           </Link>
         </div>
 
@@ -62,7 +64,17 @@ export default async function NavbarDesktop() {
           </Link>
 
           <div className="flex items-center">
-            <div className="avatar"></div>
+            {session?.user.image ? (
+              <Image
+                alt=""
+                width={30}
+                height={30}
+                className="w-[30px] aspect-square rounded-full mx-4"
+                src={session.user.image}
+              />
+            ) : (
+              <div className="avatar"></div>
+            )}
             <div className="cart">1</div>
           </div>
 
