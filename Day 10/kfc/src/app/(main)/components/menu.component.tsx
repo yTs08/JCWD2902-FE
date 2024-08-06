@@ -2,6 +2,7 @@
 "use client";
 import { api } from "@/config/axios.config";
 import { IMenu } from "@/interfaces/menu";
+import { useSession } from "next-auth/react";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
@@ -11,6 +12,7 @@ type Props = {
 
 export function MenuComponent({ category }: Props) {
   const [menus, setMenus] = useState<IMenu[]>([]);
+
   useEffect(() => {
     const fetch = async () => {
       const res = await api.get("/products", {
@@ -24,11 +26,9 @@ export function MenuComponent({ category }: Props) {
     fetch();
   }, []);
   return (
-    <div className="w-full pt-[150px] -mt-[150px]"  id={category}>
+    <div className="w-full pt-[150px] -mt-[150px]" id={category}>
       <div className="ml-3 font-bold lg:text-[28px] md:text-[22px] flex items-center mb-[20px] text-nowrap">
-        <div className="pr-[15px]">
-          {category}
-        </div>
+        <div className="pr-[15px]">{category}</div>
       </div>
       <div className="grid  xl:grid-cols-4 md:grid-cols-3 grid-cols-1 w-full ">
         {menus.map((_: IMenu, key) => (

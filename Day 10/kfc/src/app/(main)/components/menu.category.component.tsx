@@ -6,6 +6,7 @@ import { ICategory } from "@/interfaces/category";
 import React, { useEffect, useState } from "react";
 import { MenuComponent } from "./menu.component";
 import MenuBarComponent from "./menubar.component";
+import { useSession } from "next-auth/react";
 
 export default function MenuListCategory() {
   const [categories, setCategories] = useState<ICategory[]>([]);

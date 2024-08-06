@@ -11,7 +11,6 @@ import ButtonLogout from "./button.navbar";
 import { Menu } from "lucide-react";
 export default async function NavbarDesktop() {
   const session = await auth();
-  console.log(session);
 
   return (
     <div className="w-full shadow fixed top-0 bg-white z-50  border-b">
@@ -48,7 +47,7 @@ export default async function NavbarDesktop() {
             href="/"
             className="flex items-center w-[85px] text-lg  justify-end font-bold"
           >
-            {session?.user.full_name || session?.user.name}
+            {session?.user.full_name}
           </Link>
         </div>
 

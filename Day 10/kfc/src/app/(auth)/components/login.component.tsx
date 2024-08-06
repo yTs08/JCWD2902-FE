@@ -29,8 +29,7 @@ export default function LoginComponent({}: Props) {
   const [errorMsgGoogle, dispatchGoogle] = useFormState(
     googleAuthenticate,
     undefined
-  ); //googleAuthenticate hook
-
+  );
   const {
     register,
     formState: { errors },
