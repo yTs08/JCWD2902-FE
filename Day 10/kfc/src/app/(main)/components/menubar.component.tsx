@@ -25,7 +25,7 @@ export default function MenuBarComponent({ categories }: Props) {
   //   ];
   const [select, setSelect] = useState<string>("Spesial");
   return (
-    <div className="left-0 w-full outline-none font-sans  fixed top-[67px] md:top-[103px] z-[1000] bg-white h-[40px] md:h-[45px] ">
+    <div className="left-0 w-full outline-none font-sans  fixed top-[67px] md:top-[102px] border-t z-[1000] bg-white h-[40px] md:h-[45px] ">
       <div className="  max-w-[1220px]  2xl:max-w-[1440px] m-auto w-full  flex justify-between flex-col relative">
         <div className="bg-white absolute left-0  z-10 top-0 h-[45px] md:flex hidden items-center ">
           <ChevronLeft
