@@ -2,6 +2,7 @@ import NextAuth from "next-auth";
 import Credential from "next-auth/providers/credentials";
 import { loginSchema } from "./schemas/auth.schema";
 import { api } from "./config/axios.config";
+import google from "next-auth/providers/google";
 
 export const { signIn, signOut, handlers, auth } = NextAuth({
   pages: {
@@ -35,7 +36,29 @@ export const { signIn, signOut, handlers, auth } = NextAuth({
     }),
   ],
   callbacks: {
-    async signIn() {
+    async signIn({ user, account, profile, email, credentials }) {
+      if (account?.provider === "google") {
+        await api.get("/users", {
+          params: {
+            email: user?.email,
+          },
+        });
+        if (res.data.length === 0) {
+          const newUser = {
+            full_name: user.name,
+            phone_number: null,
+            gender: "Pria",
+            date: null,
+            month: null,
+            year: null,
+            email: user?.email,
+            password: null,
+            confirm_password: null,
+            google_id: user.id,
+          };
+          await api.post("/users", newUser);
+        }
+      }
       return true;
     },
     async session({ session, token }) {
@@ -49,6 +72,18 @@ export const { signIn, signOut, handlers, auth } = NextAuth({
       return session;
     },
     async jwt({ token, user, account, profile, trigger, session }) {
+      if (account?.provider === "google") {
+        const res = await api.get("/users", {
+          params: {
+            email: user?.email,
+          },
+        });
+        if (res.data.length === 0) {
+          token = res.data[0];
+        }
+        return token;
+      }
+
       if (user) {
         token.id = user.id;
         token.full_name = user.full_name;

@@ -80,5 +80,895 @@
       "category": "Dessert",
       "img_src": "https://static.order.kfcku.com/images/category/lg/Dessert.jpg?v=46oxZg"
     }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "MDL Burger Combo",
+      "price": 30000,
+      "categoryId": "1",
+      "description": "1 Crispy Burger + 1/2 Chicken Ball + Fanta Float + 1 benefit card game",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/12988.jpg?v=4p1eJg"
+    },
+    {
+      "id": 2,
+      "name": "MDL Chicken Combo",
+      "price": 30000,
+      "categoryId": "1",
+      "description": "1 pc Chicken + 1 Rice + 1 Fanta Float + 1 benefit card game",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/12987.jpg?v=4p1eJg"
+    },
+    {
+      "id": 3,
+      "name": "Back To School 1",
+      "price": 13636,
+      "categoryId": "1",
+      "description": "1 pc Chicken + 1 Rice + 1 Fanta Float + 1 benefit card game",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/13317.jpg?v=4p1eJg"
+    },
+    {
+      "id": 4,
+      "name": "Back To School 2",
+      "price": 13636,
+      "categoryId": "1",
+      "description": "1 Spaghetti Deluxe + 1 Fanta Float",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/13320.jpg?v=4p1eJg"
+    },
+    {
+      "id": 5,
+      "name": "Back To School 3",
+      "price": 18182,
+      "categoryId": "1",
+      "description": "1 Twisty + 1 Fanta Float",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/13323.jpg?v=4p1eJg"
+    },
+    {
+      "id": 6,
+      "name": "Back To School 4",
+      "price": 18182,
+      "categoryId": "1",
+      "description": "1 Yakiniku Don + Fanta Float",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/13326.jpg?v=4p1eJg"
+    },
+    {
+      "id": 7,
+      "name": "Paket Seru 1",
+      "price": 29091,
+      "categoryId": "1",
+      "description": "1 Pc Chicken + 1 Crispy Burger",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/13192.jpg?v=4p1eJg"
+    },
+    {
+      "id": 8,
+      "name": "Paket Seru 2",
+      "price": 18182,
+      "categoryId": "1",
+      "description": "1 Spaghetty Delux + 1 Mocca Float",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/13193.jpg?v=4p1eJg"
+    },
+    {
+      "id": 9,
+      "name": "Paket Seru 3",
+      "price": 27273,
+      "categoryId": "1",
+      "description": "1 Fish Burger + 1 Mocca Float",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/13194.jpg?v=4p1eJg"
+    },
+    {
+      "id": 10,
+      "name": "Paket Seru 4",
+      "price": 20000,
+      "categoryId": "1",
+      "description": "1 Pc Chicken + 1 Rice",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/13195.jpg?v=4p1eJg"
+    },
+    {
+      "id": 11,
+      "name": "jagoan Hemat 1",
+      "price": 34545,
+      "categoryId": "1",
+      "description": "1 pc Chicken + 1 Rice + 1 Coca-Cola Medium",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/13123.jpg?v=4p1eJg"
+    },
+    {
+      "id": 12,
+      "name": "jagoan Hemat 2",
+      "price": 45455,
+      "categoryId": "1",
+      "description": "2 pcs Chicken + 1 Rice + 1 Coca-Cola Medium",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/13126.jpg?v=4p1eJg"
+    },
+    {
+      "id": 13,
+      "name": "Burger Fest Colonel",
+      "price": 47273,
+      "categoryId": "1",
+      "description": "2 Colonel Burger + 1 Coca Cola Medium",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/12895.jpg?v=4p1eJg"
+    },
+    {
+      "id": 14,
+      "name": "Super Besar New 1",
+      "price": 39090,
+      "categoryId": "2",
+      "description": "  1 Pcs Chicken + 1 Rice + 1 Coca Cola Medium + 1 Pcs KFC Soup",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/12533.jpg?v=4p1eJg"
+    },
+    {
+      "id": 15,
+      "name": "Super Besar New 2",
+      "price": 51818,
+      "categoryId": "2",
+      "description": "2 Pcs Chicken + 1 Rice + 1 Coca Cola Medium + 1 Pc KFC Soup",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/12538.jpg?v=4p1eJg"
+    },
+    {
+      "id": 16,
+      "name": "Jagoan Puas 1",
+      "price": 27273,
+      "categoryId": "2",
+      "description": "1 Rice + 1 Pc Chicken + 1 Coca-Cola Reguler",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/12561.jpg?v=4p1eJg"
+    },
+    {
+      "id": 17,
+      "name": "Jagoan Puas 2",
+      "price": 27273,
+      "categoryId": "2",
+      "description": "1 Crispy Burger + 3 Pcs Chicken Ball + 1 Coca-Cola Reguler",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/12562.jpg?v=4p1eJg"
+    },
+    {
+      "id": 18,
+      "name": "Super Komplit 1",
+      "price": 46819,
+      "categoryId": "2",
+      "description": "1 Crispy Burger + Half Winger + 1 French Fries Reg + 1 Coca-Cola reg.",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/12665.jpg?v=4p1eJg"
+    },
+    {
+      "id": 19,
+      "name": "Super Komplit 2",
+      "price": 41819,
+      "categoryId": "2",
+      "description": "1 Pc Chicken + 1 Rice + 1 Cream Soup + 1 Mocha Float.",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/12669.jpg?v=4p1eJg"
+    },
+    {
+      "id": 20,
+      "name": "Super Komplit 3",
+      "price": 46364,
+      "categoryId": "2",
+      "description": "1 Pc Chicken + 1 Rice + 1 porsi Chicken Strips + 1 Mocha Float",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/12673.jpg?v=4p1eJg"
+    },
+    {
+      "id": 21,
+      "name": "Super Komplit 4",
+      "price": 54546,
+      "categoryId": "2",
+      "description": "1 Pc Chicken + 1 Rice + 1 Colonel Burger + 1 Mocha Float",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/12677.jpg?v=4p1eJg"
+    },
+    {
+      "id": 22,
+      "name": "Super Family",
+      "price": 118182,
+      "categoryId": "2",
+      "description": "5 Pcs Chicken + 3 Pcs Rice + 3 Coca Cola Medium",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/12570.jpg?v=4p1eJg"
+    },
+    {
+      "id": 23,
+      "name": "Kombo Colonel Burger",
+      "price": 49090,
+      "categoryId": "2",
+      "description": "1 Porsi Colonel Burger + 1 FF Reg + 1 Coca-Cola Reg",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/11168.jpg?v=4p1eJg"
+    },
+    {
+      "id": 24,
+      "name": "Kombo OR Burger Single",
+      "price": 47727,
+      "categoryId": "2",
+      "description": "1 Porsi OR Burger Single + 1 FF Reg + 1 Coca-Cola Reg",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/11144.jpg?v=4p1eJg"
+    },
+    {
+      "id": 25,
+      "name": "Kombo OR Burger Double",
+      "price": 56818,
+      "categoryId": "2",
+      "description": "1 Porsi OR Burger Double + 1 FF Reg + 1 Coca-Cola Reg",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/11156.jpg?v=4p1eJg"
+    },
+    {
+      "id": 26,
+      "name": "Kombo Fish Burger",
+      "price": 42727,
+      "categoryId": "2",
+      "description": "1 Porsi Fish Burger + 1 FF Reg + 1 Coca-Cola Reg",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/11192.jpg?v=4p1eJg"
+    },
+    {
+      "id": 27,
+      "name": "Kombo Crispy Burger",
+      "price": 37727,
+      "categoryId": "2",
+      "description": "1 Porsi Crispy Burger + 1 FF Reg + 1 Coca-Cola Reg",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/11180.jpg?v=4p1eJg"
+    },
+    {
+      "id": 28,
+      "name": "KFC Kombo Winger",
+      "price": 27273,
+      "categoryId": "2",
+      "description": "1 Pc Winger + 1 Rice + 1 Coca-cola Reguler",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/4850.jpg?v=4p1eJg"
+    },
+    {
+      "id": 29,
+      "name": "Super Star Single",
+      "price": 62817,
+      "categoryId": "2",
+      "description": "1 Pc Chicken + 1 Rice + 1 Coca-Cola Reg + 1 CD / CD Digital",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/12901.jpg?v=4p1eJg"
+    },
+    {
+      "id": 30,
+      "name": "Kombo Super Star Berdua A",
+      "price": 92818,
+      "categoryId": "2",
+      "description": "2 pcs Chicken + 2 Rice + 2 Coca-Cola reg. + 1 CD",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/10582.jpg?v=4p1eJg"
+    },
+    {
+      "id": 31,
+      "name": "Kombo Super Star Berdua B",
+      "price": 92818,
+      "categoryId": "2",
+      "description": "2 pcs Chicken + 2 Rice + 1 Coca-Cola Reguler + 1 Fun Fries BBQ + 1 Mocha Float + 1 CD",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/11305.jpg?v=4p1eJg"
+    },
+    {
+      "id": 32,
+      "name": "Kombo Super Star Ber 3",
+      "price": 148727,
+      "categoryId": "2",
+      "description": "4 Chicken + 3 Rice + 3 Coca-Cola reg + 3 KFC Soup + 1 CD",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/10776.jpg?v=4p1eJg"
+    },
+    {
+      "id": 33,
+      "name": "Snack Bucket 1",
+      "price": 78637,
+      "categoryId": "3",
+      "description": "4 pcs Chicken Strip + 1 Fun Fries + 1 KFC Winger + 6 Chicken Ball",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/5587.jpg?v=4p1eJg"
+    },
+    {
+      "id": 34,
+      "name": "Snack Bucket 2",
+      "price": 65909,
+      "categoryId": "3",
+      "description": "2 pcs Chicken Strip + 1 Fun Fries + 1 KFC Winger + 6 Chicken Ball",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/5588.jpg?v=4p1eJg"
+    },
+    {
+      "id": 35,
+      "name": "9 Pcs Bucket",
+      "price": 152273,
+      "categoryId": "3",
+      "description": "9 Potong Ayam",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/4842.jpg?v=4p1eJg"
+    },
+    {
+      "id": 36,
+      "name": "Winger Bucket*",
+      "price": 82273,
+      "categoryId": "3",
+      "description": "7 Pc Half Winger",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/10087.jpg?v=4p1eJg"
+    },
+    {
+      "id": 37,
+      "name": "Chicken",
+      "price": 18182,
+      "categoryId": "4",
+      "description": "Chicken",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/4838.jpg?v=4p1eJg"
+    },
+    {
+      "id": 38,
+      "name": "Chicken Strips",
+      "price": 17728,
+      "categoryId": "4",
+      "description": "Chicken Strips",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/4866.jpg?v=4p1eJg"
+    },
+    {
+      "id": 39,
+      "name": "KFC Winger",
+      "price": 21818,
+      "categoryId": "4",
+      "description": "2 Wingette + 2 Drumette",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/4867.jpg?v=4p1eJg"
+    },
+    {
+      "id": 40,
+      "name": "Tote Bag KFC",
+      "price": 4090,
+      "categoryId": "5",
+      "description": "1 pc Tote Bag/Kantong Ramah Lingkungan Cukup untuk 2 Bucket Besar KFC",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/8712.jpg?v=4p1eJg"
+    },
+    {
+      "id": 41,
+      "name": "Chicken Balls",
+      "price": 12273,
+      "categoryId": "5",
+      "description": "Chicken Balls",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/5589.jpg?v=4p1eJg"
+    },
+    {
+      "id": 42,
+      "name": "Chicken Skin",
+      "price": 15000,
+      "categoryId": "5",
+      "description": "Chicken Skin",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/10833.jpg?v=4p1eJg"
+    },
+    {
+      "id": 43,
+      "name": "Fun Fries",
+      "price": 24546,
+      "categoryId": "5",
+      "description": "Fun Fries",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/12486.jpg?v=4p1eJg"
+    },
+    {
+      "id": 44,
+      "name": "Chicken Ball BBQ",
+      "price": 14091,
+      "categoryId": "5",
+      "description": "Chicken Ball BBQ",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/12488.jpg?v=4p1eJg"
+    },
+    {
+      "id": 45,
+      "name": "Winger BBQ",
+      "price": 24545,
+      "categoryId": "5",
+      "description": "Winger BBQ",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/12491.jpg?v=4p1eJg"
+    },
+    {
+      "id": 46,
+      "name": "Yakiniku Don",
+      "price": 15454,
+      "categoryId": "5",
+      "description": "1 Porsi Yakiniku Don",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/11447.jpg?v=4p1eJg"
+    },
+    {
+      "id": 47,
+      "name": "Oriental Don",
+      "price": 15454,
+      "categoryId": "5",
+      "description": "1 Porsi Oriental Don",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/11444.jpg?v=4p1eJg"
+    },
+    {
+      "id": 48,
+      "name": "Don Series With Egg",
+      "price": 19091,
+      "categoryId": "5",
+      "description": "1 porsi Don Series + 1 Egg",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/11517.jpg?v=4p1eJg"
+    },
+    {
+      "id": 49,
+      "name": "Alacarte Egg",
+      "price": 10909,
+      "categoryId": "5",
+      "description": "1 porsi Alacarte Egg",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/11542.jpg?v=4p1eJg"
+    },
+    {
+      "id": 50,
+      "name": "Colonel Burger",
+      "price": 28637,
+      "categoryId": "5",
+      "description": "Colonel Burger",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/11162.jpg?v=4p1eJg"
+    },
+    {
+      "id": 51,
+      "name": "OR Burger Single",
+      "price": 26819,
+      "categoryId": "5",
+      "description": "OR Burger Single",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/11138.jpg?v=4p1eJg"
+    },
+    {
+      "id": 52,
+      "name": "Spaghetti Deluxe",
+      "price": 10909,
+      "categoryId": "5",
+      "description": "Spaghetti Deluxe",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/4910.jpg?v=4p1eJg"
+    },
+    {
+      "id": 53,
+      "name": "OR Burger Double",
+      "price": 35910,
+      "categoryId": "5",
+      "description": "OR Burger Double",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/11150.jpg?v=4p1eJg"
+    },
+    {
+      "id": 54,
+      "name": "Crispy Burger",
+      "price": 15909,
+      "categoryId": "5",
+      "description": "Crispy Burger",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/11174.jpg?v=4p1eJg"
+    },
+    {
+      "id": 55,
+      "name": "Fish Burger",
+      "price": 25000,
+      "categoryId": "5",
+      "description": "Fish Burger",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/11186.jpg?v=4p1eJg"
+    },
+    {
+      "id": 56,
+      "name": "Twisty",
+      "price": 17728,
+      "categoryId": "5",
+      "description": "Twisty",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/4857.jpg?v=4p1eJg"
+    },
+    {
+      "id": 57,
+      "name": "Spaghetti Supreme",
+      "price": 19999,
+      "categoryId": "5",
+      "description": "Spaghetti Supreme",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/5306.jpg?v=4p1eJg"
+    },
+    {
+      "id": 58,
+      "name": "Cream Soup",
+      "price": 10455,
+      "categoryId": "5",
+      "description": "Cream Soup",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/8378.jpg?v=4p1eJg"
+    },
+    {
+      "id": 59,
+      "name": "KFC Soup",
+      "price": 10455,
+      "categoryId": "5",
+      "description": "KFC Soup",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/4911.jpg?v=4p1eJg"
+    },
+    {
+      "id": 60,
+      "name": "Chicken Porridge",
+      "price": 18636,
+      "categoryId": "5",
+      "description": "Chicken Porridge",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/4871.jpg?v=4p1eJg"
+    },
+    {
+      "id": 61,
+      "name": "Original Porridge",
+      "price": 10909,
+      "categoryId": "5",
+      "description": "Original Porridge",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/4870.jpg?v=4p1eJg"
+    },
+    {
+      "id": 62,
+      "name": "French Fries Large",
+      "price": 23637,
+      "categoryId": "5",
+      "description": "French Fries Large",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/5716.jpg?v=4p1eJg"
+    },
+    {
+      "id": 63,
+      "name": "French Fries",
+      "price": 19091,
+      "categoryId": "5",
+      "description": "French Fries",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/4864.jpg?v=4p1eJg"
+    },
+    {
+      "id": 64,
+      "name": "Rice",
+      "price": 9546,
+      "categoryId": "5",
+      "description": "Rice",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/4869.jpg?v=4p1eJg"
+    },
+    {
+      "id": 65,
+      "name": "Perkedel",
+      "price": 9546,
+      "categoryId": "5",
+      "description": "Perkedel",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/5317.jpg?v=4p1eJg"
+    },
+    {
+      "id": 66,
+      "name": "Avocado Float",
+      "price": 15454,
+      "categoryId": "6",
+      "description": "Avocado Float",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/12103.jpg?v=4p1eJg"
+    },
+    {
+      "id": 67,
+      "name": "Mocha Float",
+      "price": 15454,
+      "categoryId": "6",
+      "description": "Mocha Float",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/4889.jpg?v=4p1eJg"
+    },
+    {
+      "id": 68,
+      "name": "Yubari Float",
+      "price": 15454,
+      "categoryId": "6",
+      "description": "Yubari Float",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/9377.jpg?v=4p1eJg"
+    },
+    {
+      "id": 69,
+      "name": "Lovlychee Float",
+      "price": 11364,
+      "categoryId": "6",
+      "description": "Lovlychee Float",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/6939.jpg?v=4p1eJg"
+    },
+    {
+      "id": 70,
+      "name": "Mango Float",
+      "price": 11364,
+      "categoryId": "6",
+      "description": "Mango Float",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/5298.jpg?v=4p1eJg"
+    },
+    {
+      "id": 71,
+      "name": "Chococha Float",
+      "price": 15000,
+      "categoryId": "6",
+      "description": "Chococha Float",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/4890.jpg?v=4p1eJg"
+    },
+    {
+      "id": 72,
+      "name": "Coca-cola Medium",
+      "price": 11364,
+      "categoryId": "6",
+      "description": "Coca-cola Medium",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/11940.jpg?v=4p1eJg"
+    },
+    {
+      "id": 73,
+      "name": "Sprite Medium",
+      "price": 11364,
+      "categoryId": "6",
+      "description": "Sprite Medium",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/11941.jpg?v=4p1eJg"
+    },
+    {
+      "id": 74,
+      "name": "Fanta Medium",
+      "price": 19091,
+      "categoryId": "6",
+      "description": "Fanta Medium",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/11942.jpg?v=4p1eJg"
+    },
+    {
+      "id": 75,
+      "name": "Mineral Water",
+      "price": 8637,
+      "categoryId": "6",
+      "description": "Mineral Water",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/4885.jpg?v=4p1eJg"
+    },
+    {
+      "id": 76,
+      "name": "Ichi Ocha*",
+      "price": 11364,
+      "categoryId": "6",
+      "description": "Ichi Ocha",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/4887.jpg?v=4p1eJg"
+    },
+    {
+      "id": 77,
+      "name": "Ovaltine 125 ML",
+      "price": 10455,
+      "categoryId": "6",
+      "description": "Ovaltine 125 ML",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/10449.jpg?v=4p1eJg"
+    },
+    {
+      "id": 78,
+      "name": "Chaki Kids Meal A Dessert",
+      "price": 33636,
+      "categoryId": "7",
+      "description": "1pcs Chicken + 1 Rice + 1 Ovaltine +1 Puding",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/13288.jpg?v=4p1eJg"
+    },
+    {
+      "id": 79,
+      "name": "Chaki Kids Meal B Dessert",
+      "price": 33636,
+      "categoryId": "7",
+      "description": "1pcs Crispy Burger + 1 French Fries + 1 Ovaltine + 1 Puding",
+      "img_src": "https://static.order.kfcku.com/images/web/default_idimg.jpg?v=4p1eJg"
+    },
+    {
+      "id": 80,
+      "name": "1Pc Donut",
+      "price": 8637,
+      "categoryId": "8",
+      "description": "1Pc Donut",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/4874.jpg?v=4p1eJg"
+    },
+    {
+      "id": 81,
+      "name": "1/2 Dozen Donut",
+      "price": 45454,
+      "categoryId": "8",
+      "description": "6pc donut",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/10838.jpg?v=4p1eJg"
+    },
+    {
+      "id": 82,
+      "name": "Pukis 2 Pcs",
+      "price": 13636,
+      "categoryId": "8",
+      "description": "Pukis 2 Pcs",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/8269.jpg?v=4p1eJg"
+    },
+    {
+      "id": 83,
+      "name": "Pukis 3 Pcs",
+      "price": 20000,
+      "categoryId": "8",
+      "description": "Pukis 3 Pcs",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/8270.jpg?v=4p1eJg"
+    },
+    {
+      "id": 84,
+      "name": "Pukis 5 Pcs",
+      "price": 31818,
+      "categoryId": "8",
+      "description": "Pukis 5 Pcs",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/8271.jpg?v=4p1eJg"
+    },
+    {
+      "id": 85,
+      "name": "Kombo Spesial Blended",
+      "price": 25455,
+      "categoryId": "8",
+      "description": "Kombo Spesial Blended",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/12146.jpg?v=4p1eJg"
+    },
+    {
+      "id": 86,
+      "name": "Es Kopi Susu",
+      "price": 15455,
+      "categoryId": "8",
+      "description": "Es Kopi Susu",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/12855.jpg?v=4p1eJg"
+    },
+    {
+      "id": 87,
+      "name": "Ice Americano",
+      "price": 18637,
+      "categoryId": "8",
+      "description": "Ice Americano",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/12846.jpg?v=4p1eJg"
+    },
+    {
+      "id": 88,
+      "name": "Ice Blended Chocolate",
+      "price": 24546,
+      "categoryId": "8",
+      "description": "Ice Blended Chocolate",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/12852.jpg?v=4p1eJg"
+    },
+    {
+      "id": 89,
+      "name": "ce Blended Cappucino",
+      "price": 22728,
+      "categoryId": "8",
+      "description": "ce Blended Cappucino",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/12849.jpg?v=4p1eJg"
+    },
+    {
+      "id": 90,
+      "name": "Ice Latte",
+      "price": 14546,
+      "categoryId": "8",
+      "description": "Ice Latte",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/12858.jpg?v=4p1eJg"
+    },
+    {
+      "id": 91,
+      "name": "Ice Lemon Tea",
+      "price": 15455,
+      "categoryId": "8",
+      "description": "Ice Lemon Tea",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/12861.jpg?v=4p1eJg"
+    },
+    {
+      "id": 92,
+      "name": "Espresso",
+      "price": 9546,
+      "categoryId": "8",
+      "description": "Espresso",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/4901.jpg?v=4p1eJg"
+    },
+    {
+      "id": 93,
+      "name": "Hazelnut Coffee",
+      "price": 15455,
+      "categoryId": "8",
+      "description": "Hazelnut Coffee",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/12831.jpg?v=4p1eJg"
+    },
+    {
+      "id": 94,
+      "name": "Hot Cappucino",
+      "price": 17273,
+      "categoryId": "8",
+      "description": "Hot Cappucino",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/12834.jpg?v=4p1eJg"
+    },
+    {
+      "id": 95,
+      "name": "Hot Cafe Latte",
+      "price": 18637,
+      "categoryId": "8",
+      "description": "Hot Cafe Latte",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/12837.jpg?v=4p1eJg"
+    },
+    {
+      "id": 96,
+      "name": "Hot Americano",
+      "price": 17728,
+      "categoryId": "8",
+      "description": "Hot Americano",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/12840.jpg?v=4p1eJg"
+    },
+    {
+      "id": 97,
+      "name": "Espresso Con Panna",
+      "price": 11364,
+      "categoryId": "8",
+      "description": "Espresso Con Panna",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/11459.jpg?v=4p1eJg"
+    },
+    {
+      "id": 98,
+      "name": "Hot Chocolate",
+      "price": 21364,
+      "categoryId": "8",
+      "description": "Hot Chocolate",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/12843.jpg?v=4p1eJg"
+    },
+    {
+      "id": 99,
+      "name": "Krusher Cookies N Cream",
+      "price": 15000,
+      "categoryId": "8",
+      "description": "Krusher Cookies N Cream",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/5319.jpg?v=4p1eJg"
+    },
+    {
+      "id": 100,
+      "name": "Krusher Double Chocolate",
+      "price": 15000,
+      "categoryId": "8",
+      "description": "Krusher Double Chocolate",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/5320.jpg?v=4p1eJg"
+    },
+    {
+      "id": 101,
+      "name": "Kombo Chaki Breakfast 1",
+      "price": 34545,
+      "categoryId": "9",
+      "description": "1 Pc Chicken + 1 Rice + 1 Scramble Egg + 1 Ovaltine 125 ml + 1 Toys",
+      "img_src": "https://static.order.kfcku.com/images/web/default_idimg.jpg?v=4p1eJg"
+    },
+    {
+      "id": 102,
+      "name": "KCombo Chicken Porridge",
+      "price": 21818,
+      "categoryId": "9",
+      "description": "1 Chicken Porridge + Hot Tea / Hot Coffee",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/11337.jpg?v=4p1eJg"
+    },
+    {
+      "id": 103,
+      "name": "Combo Original Porridge",
+      "price": 21818,
+      "categoryId": "9",
+      "description": "1 Original Porridge + Hot Tea / Hot Coffee",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/10193.jpg?v=4p1eJg"
+    },
+    {
+      "id": 104,
+      "name": "Hot Tea",
+      "price": 8637,
+      "categoryId": "9",
+      "description": "Hot Tea",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/12793.jpg?v=4p1eJg"
+    },
+    {
+      "id": 105,
+      "name": "Koolz Chocolate",
+      "price": 15000,
+      "categoryId": "10",
+      "description": "1 Porsi Koolz Chocolate",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/9532.jpg?v=4p1eJg"
+    },
+    {
+      "id": 106,
+      "name": "Pudding",
+      "price": 8182,
+      "categoryId": "10",
+      "description": "Pudding",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/7155.jpg?v=4p1eJg"
+    },
+    {
+      "id": 107,
+      "name": "Sundae",
+      "price": 9091,
+      "categoryId": "10",
+      "description": "Sundae",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/4916.jpg?v=4p1eJg"
+    },
+    {
+      "id": 108,
+      "name": "Soft Ice Cream",
+      "price": 6818,
+      "categoryId": "10",
+      "description": "Soft Ice Cream",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/4918.jpg?v=4p1eJg"
+    },
+    {
+      "id": 109,
+      "name": "Cream Puff 2 Pcs",
+      "price": 20909,
+      "categoryId": "10",
+      "description": "Cream Puff 2 Pcs",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/8662.jpg?v=4p1eJg"
+    },
+    {
+      "id": 110,
+      "name": "1 Pcs Cream Puff",
+      "price": 12273,
+      "categoryId": "10",
+      "description": "1 Pcs Cream Puff",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/4917.jpg?v=4p1eJg"
+    },
+    {
+      "id": 111,
+      "name": "5 Pcs Cream Puff",
+      "price": 52273,
+      "categoryId": "10",
+      "description": "5 Pcs Cream Puff",
+      "img_src": "https://static.order.kfcku.com/images/items/lg/9706.jpg?v=4p1eJg"
+    }
   ]
 }

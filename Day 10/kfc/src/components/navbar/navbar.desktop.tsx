@@ -1,5 +1,5 @@
 /** @format */
-
+"use client";
 import Image from "next/image";
 import React from "react";
 import Logo from "@/../public/kfc-logo.svg";
@@ -44,9 +44,14 @@ export default function NavbarDesktop({}: Props) {
           </Link>
           <Link
             href="/"
-            className="flex items-center w-[85px] text-lg  justify-end font-bold"
+            className="flex items-center ml-5 text-nowrap w-[85px] text-lg  justify-end font-bold"
           >
             {session?.user.full_name}
+          </Link>
+        </div>
+        <div className="content-center ">
+          <Link className="  text-lg  font-bold" href="/products">
+            Products
           </Link>
         </div>
 
